@@ -1,0 +1,95 @@
+{
+  "name": "io.cordova.myappdf2003",
+  "author": "",
+  "homepage": "",
+  "private": true,
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve",
+    "watch": "ionic-app-scripts watch"
+  },
+  "dependencies": {
+    "@angular/common": "^5.2.10",
+    "@angular/compiler": "^5.2.10",
+    "@angular/compiler-cli": "^5.2.10",
+    "@angular/core": "^5.2.10",
+    "@angular/forms": "^5.2.10",
+    "@angular/http": "^5.2.10",
+    "@angular/platform-browser": "^5.2.10",
+    "@angular/platform-browser-dynamic": "^5.2.10",
+    "@angular/platform-server": "^5.2.10",
+    "@ionic-native/core": "^4.9.0",
+    "@ionic-native/file": "^4.7.0",
+    "@ionic/storage": "2.1.3",
+    "buffer": "^5.1.0",
+    "chalk": "^2.2.2",
+    "child_process": "^1.0.2",
+    "cordova": "^8.0.0",
+    "cordova-android": "^6.2.2",
+    "cordova-common": "^2.2.4",
+    "cordova-ios": "4.2.0",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-file": "^4.3.3",
+    "cordova-sqlite-storage": "^2.3.1",
+    "cordova-windows": "4.4.2",
+    "deployment": "^0.2.3",
+    "elementtree": "^0.1.7",
+    "fs": "0.0.1-security",
+    "htmlparser2": "^3.9.2",
+    "ionic-angular": "3.9.2",
+    "ionic-native": "2.9.0",
+    "ionicons": "4.2.4",
+    "ios-sim": "^7.0.0",
+    "nopt": "^4.0.1",
+    "os": "^0.1.1",
+    "parse5": "^5.0.0",
+    "parse5-htmlparser2-tree-adapter": "^5.0.0",
+    "path": "^0.12.7",
+    "plist": "^3.0.1",
+    "properties-parser": "^0.3.1",
+    "q": "^1.5.1",
+    "rxjs": "^5.5.10",
+    "semver": "^5.5.0",
+    "shelljs": "^0.8.2",
+    "sw-toolbox": "3.6.0",
+    "typeorm": "^0.2.5",
+    "underscore": "^1.9.1",
+    "unorm": "^1.4.1",
+    "url": "^0.11.0",
+    "util": "^0.11.0",
+    "xcode": "^1.0.0",
+    "zone.js": "0.8.26"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "3.1.10",
+    "@types/node": "^10.5.1",
+    "typescript": "^2.8.3"
+  },
+  "description": "Ionic2Blank: An Ionic project",
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [],
+  "-vs-binding": {
+    "BeforeBuild": [
+      "ionic:build"
+    ]
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-file": {}
+    },
+    "platforms": [
+      "ios",
+      "windows"
+    ]
+  }
+}
